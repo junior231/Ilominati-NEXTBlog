@@ -1,5 +1,5 @@
 import PostsGrid from "../postGrid/postGrid";
-import styles from "./allposts.module.css";
+import styles from "./allPosts.module.css";
 
 const AllPosts = ({ posts }) => {
   return (
