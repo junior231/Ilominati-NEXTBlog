@@ -1,0 +1,49 @@
+.content {
+  width: 95%;
+  max-width: 60rem;
+  margin: var(--size-8) auto;
+  font-size: var(--size-5);
+  line-height: var(--size-8);
+  background-color: var(--color-grey-200);
+  border-radius: 6px;
+  padding: var(--size-4);
+}
+
+.content p {
+  color: var(--color-grey-800);
+  margin-bottom: 2px;
+}
+
+.content h1 {
+  font-weight: bold;
+}
+
+.content h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.content ul {
+  list-style-type: disc;
+  padding: 10px 20px;
+}
+
+.content li {
+  margin-top: 5px;
+}
+
+.content a {
+  color: blue;
+}
+
+.content .image {
+  margin: var(--size-4) auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: var(--size-8);
+  }
+}
