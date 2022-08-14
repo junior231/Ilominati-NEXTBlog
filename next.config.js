@@ -15,17 +15,17 @@ const nextConfig = (phase) => {
   }
  }
 
-  return {
-    reactStrictMode: true,
-    swcMinify: true,
-    env: {
-      mongodb_username: 'ilo',
-      mongodb_password: 'nextblog',
-      mongodb_clusterName: 'cluster0',
-      mongodb_databaseName: 'blog',
-      mongodb_collection: 'messages'
-    }
-  }
+  // return {
+  //   reactStrictMode: true,
+  //   swcMinify: true,
+  //   env: {
+  //     mongodb_username: 'ilo',
+  //     mongodb_password: 'nextblog',
+  //     mongodb_clusterName: 'cluster0',
+  //     mongodb_databaseName: 'blog',
+  //     mongodb_collection: 'messages'
+  //   }
+  // }
 
 }
 
